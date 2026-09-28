@@ -104,4 +104,3 @@ The subscriber shows `Hello from ESP-01` when the module connects, then `LED is 
 - The value must be a string: `{"message": "1"}` works, while `{"message": 1}` is reported as a missing key.
 - If both Wi-Fi networks fail at startup, the code does not check Wi-Fi again and keeps retrying the broker.
 - The MQTT connection has no username, password or TLS, so it is only suitable for a trusted local network.
-# esp01-mqtt-led-control
